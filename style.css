@@ -1,0 +1,37 @@
+body {
+    backround-colour: lightblue
+font-family: Arial, sans-serif
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between
+    align-items: center;
+    backroundcolour:  #1d1d1d 
+    padding: 20px 40px;
+
+}
+
+
+
+logo {
+    colour: white 
+    font size: 22px
+    font-weight: bold;
+    margin: 0;
+
+} 
+
+
+
+.nav-links  {
+    display: flex;
+    gap: 30px
+
+}
+
+
+.navlinks a {
+    colour: white;
+}
