@@ -1,37 +1,85 @@
-body {
-    backround-colour: lightblue
-font-family: Arial, sans-serif
-}
-
-
+/* Top Navigation Bar */
 nav {
-    display: flex;
-    justify-content: space-between
-    align-items: center;
-    backroundcolour:  #1d1d1d 
-    padding: 20px 40px;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1d1d1d;
+  padding: 20px 40px;
 }
 
-
-
-logo {
-    colour: white 
-    font size: 22px
-    font-weight: bold;
-    margin: 0;
-
-} 
-
-
-
-.nav-links  {
-    display: flex;
-    gap: 30px
-
+/* Portfolio Logo */
+.logo {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
 }
 
+/* Navigation Links */
+.nav-links {
+  display: flex;
+  gap: 30px;
+}
 
-.navlinks a {
-    colour: white;
+/* Link Styling */
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+  color: #f4de50;
+}
+
+/* ABOUT PAGE */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  padding: 40px;
+}
+
+.about-grid h1 {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0;
+}
+
+.intro p {
+  font-size: 25px;
+  line-height: 1.2;
+  margin: 0;
+}
+
+/* ABOUT IMG */
+
+.profile p {
+  font-size: 12px;
+}
+
+.profile img {
+  width: 100%;
+  max-width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.experience {
+  padding-top: 0;
+}
+
+.experience p {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #eeeeee;
+  font-size: 12px;
 }
